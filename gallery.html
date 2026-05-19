@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery - Khonga Roots Cultural Dance Crew">
+    <title>Gallery | Khonga Roots</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">🪘 Khonga Roots</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="styles.html" class="nav-link">Styles</a></li>
+                <li><a href="performances.html" class="nav-link">Performances</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="bookings.html" class="nav-link">Book Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="page-header">
+        <div class="container">
+            <h1>Gallery</h1>
+            <p>Visual moments from our performances</p>
+        </div>
+    </section>
+
+    
+    <section class="gallery page-section">
+    <div class="container">
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+                <img src="../Khonga Roots/images/image1.jpg" alt="Live Performance" class="gallery-image">
+                <p>Live Performance</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/festival_show.jpg" alt="Festival Show" class="gallery-image">
+                <p>Festival Show</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/costume_detail.jpg" alt="Costume Detail" class="gallery-image">
+                <p>Costume Detail</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/crew_in_action.jpg" alt="Crew in Action" class="gallery-image">
+                <p>Crew in Action</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/wedding_dance.jpg" alt="Wedding Dance" class="gallery-image">
+                <p>Wedding Dance</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/drumming_session.jpg" alt="Drumming Session" class="gallery-image">
+                <p>Drumming Session</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+    
+   <footer class="footer">
+        <div class="footer-pattern"></div>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Khonga Roots. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/KhongaRootsBW/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/p/BBnd-_kt9m1/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCYIkAle1-cksWEK3rAulgbQ/videos"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@khongaroots"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="java_script/script.js"></script>
+
+    <script>
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+});
+</script>
+</body>
+</html>
