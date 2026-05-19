@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Khonga Roots - Cultural Dance Crew | Feel the Rhythm. Live the Culture.">
+    <title>Khonga Roots | Cultural Dance Crew</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">🪘 Khonga Roots</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="styles.html" class="nav-link">Styles</a></li>
+                <li><a href="performances.html" class="nav-link">Performances</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="bookings.html" class="nav-link">Book Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <video autoplay muted loop class="hero-video">
+                <source src="https://videos.pexels.com/video-files/18924766/18924766-sd_640_360_25fps.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Feel the Rhythm.</h1>
+            <h2 class="hero-subtitle">Live the Culture.</h2>
+            <p class="hero-tagline">Khonga Roots Cultural Dance Crew</p>
+            <div class="hero-buttons">
+                <a href="bookings.html" class="btn btn-primary">Book Us</a>
+                <a href="performances.html" class="btn btn-secondary">Watch Performance</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-cards">
+                <div class="info-card">
+                    <i class="fas fa-dance"></i>
+                    <h3>Professional Dancers</h3>
+                    <p>Trained in traditional and contemporary dance forms</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>African Heritage</h3>
+                    <p>Celebrating authentic cultural traditions</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Premium Experience</h3>
+                    <p>High-energy performances for every occasion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="footer-pattern"></div>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Khonga Roots. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/KhongaRootsBW/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/p/BBnd-_kt9m1/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCYIkAle1-cksWEK3rAulgbQ/videos"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@khongaroots"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="java_script/script.js"></script>
+
+    <script>
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+});
+</script>
+</body>
+</html>
